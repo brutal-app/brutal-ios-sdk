@@ -1,0 +1,6 @@
+platform :ios, '9.0'
+
+target 'BrutalSampleApp' do
+  use_frameworks!
+  pod 'Brutal', :path => '../../'
+end

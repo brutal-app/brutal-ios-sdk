@@ -1,0 +1,6 @@
+framework module Brutal {
+  umbrella header "Brutal-umbrella.h"
+
+  export *
+  module * { export * }
+}

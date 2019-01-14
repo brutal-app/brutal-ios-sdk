@@ -1,0 +1,25 @@
+{
+  "name": "Brutal",
+  "version": "0.1",
+  "summary": "Brutal App UIKit SDK",
+  "description": "Collect feedback from your users",
+  "homepage": "https://github.com/tiagomartinho/brutal-ios-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tiago Martinho": "t.martinho@icloud.com"
+  },
+  "social_media_url": "",
+  "platforms": {
+    "ios": "8.0",
+    "tvos": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/tiagomartinho/brutal-ios-sdk.git",
+    "tag": "0.1"
+  },
+  "source_files": "Sources/**/*",
+  "frameworks": "Foundation"
+}

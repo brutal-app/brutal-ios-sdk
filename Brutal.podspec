@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "Brutal"
   s.version      = "0.1"
-  s.summary      = ""
+  s.summary      = "Brutal App UIKit SDK"
   s.description  = <<-DESC
-    Your description here.
+    Collect feedback from your users
   DESC
   s.homepage     = "https://github.com/tiagomartinho/brutal-ios-sdk"
   s.license      = { :type => "MIT", :file => "LICENSE" }
