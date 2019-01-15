@@ -1,8 +1,24 @@
 import UIKit
+import ReplayKit
 
 class FloatingButtonController: UIViewController {
 
-    private (set) var button: UIButton!
+    private let recordButton: UIButton = {
+        let button = UIButton(type: .custom)
+        button.setTitle("Record", for: .normal)
+        button.setTitleColor(UIColor.red, for: .normal)
+        button.backgroundColor = UIColor.white
+        button.layer.shadowColor = UIColor.black.cgColor
+        button.layer.shadowRadius = 3
+        button.layer.shadowOpacity = 0.8
+        button.layer.shadowOffset = CGSize.zero
+        button.sizeToFit()
+        button.frame = CGRect(origin: CGPoint(x: 10, y: 10), size: button.bounds.size)
+        button.autoresizingMask = []
+        return button
+    }()
+
+    private let recorder = RPScreenRecorder.shared()
 
     required init?(coder aDecoder: NSCoder) {
         fatalError()
@@ -28,23 +44,22 @@ class FloatingButtonController: UIViewController {
 
     override func loadView() {
         let view = UIView()
-        let button = UIButton(type: .custom)
-        button.setTitle("Record", for: .normal)
-        button.setTitleColor(UIColor.red, for: .normal)
-        button.backgroundColor = UIColor.white
-        button.layer.shadowColor = UIColor.black.cgColor
-        button.layer.shadowRadius = 3
-        button.layer.shadowOpacity = 0.8
-        button.layer.shadowOffset = CGSize.zero
-        button.sizeToFit()
-        button.frame = CGRect(origin: CGPoint(x: 10, y: 10), size: button.bounds.size)
-        button.autoresizingMask = []
-        view.addSubview(button)
+        view.addSubview(recordButton)
         self.view = view
-        self.button = button
-        window.button = button
+        window.button = recordButton
         let panner = UIPanGestureRecognizer(target: self, action: #selector(panDidFire(panner:)))
-        button.addGestureRecognizer(panner)
+        recordButton.addGestureRecognizer(panner)
+        recordButton.addTarget(self, action: #selector(startRecording), for: .touchUpInside)
+    }
+
+    @objc func startRecording() {
+        recorder.startRecording(withMicrophoneEnabled: true) { [unowned self] error in
+            if let error = error {
+                NSLog("Failed start recording: \(error.localizedDescription)")
+                return
+            }
+            NSLog("Start recording")
+        }
     }
 
     override func viewDidLayoutSubviews() {
@@ -55,10 +70,10 @@ class FloatingButtonController: UIViewController {
     @objc func panDidFire(panner: UIPanGestureRecognizer) {
         let offset = panner.translation(in: view)
         panner.setTranslation(CGPoint.zero, in: view)
-        var center = button.center
+        var center = recordButton.center
         center.x += offset.x
         center.y += offset.y
-        button.center = center
+        recordButton.center = center
 
         if panner.state == .ended || panner.state == .cancelled {
             UIView.animate(withDuration: 0.3) {
@@ -81,7 +96,7 @@ class FloatingButtonController: UIViewController {
     private func snapButtonToSocket() {
         var bestSocket = CGPoint.zero
         var distanceToBestSocket = CGFloat.infinity
-        let center = button.center
+        let center = recordButton.center
         for socket in sockets {
             let distance = hypot(center.x - socket.x, center.y - socket.y)
             if distance < distanceToBestSocket {
@@ -89,12 +104,12 @@ class FloatingButtonController: UIViewController {
                 bestSocket = socket
             }
         }
-        button.center = bestSocket
+        recordButton.center = bestSocket
     }
 
     private var keyboardHeight: CGFloat = 0.0
     private var sockets: [CGPoint] {
-        let buttonSize = button.bounds.size
+        let buttonSize = recordButton.bounds.size
         let rect = view.bounds.insetBy(dx: 4 + buttonSize.width / 2, dy: 4 + buttonSize.height / 2)
         let sockets: [CGPoint] = [
             CGPoint(x: rect.minX + 20, y: rect.maxY - 20 - keyboardHeight),
