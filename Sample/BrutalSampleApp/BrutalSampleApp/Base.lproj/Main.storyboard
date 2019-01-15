@@ -27,15 +27,27 @@
                                     <segue destination="wJL-V0-SVN" kind="show" id="oZd-Fi-teZ"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UlG-nd-ch8">
+                                <rect key="frame" x="16" y="76" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.80784313730000001" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5Tw-bw-kaR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Ah-ga-650"/>
+                            <constraint firstItem="UlG-nd-ch8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="QwL-US-KGM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UlG-nd-ch8" secondAttribute="trailing" constant="16" id="dsv-Fn-ye9"/>
+                            <constraint firstItem="UlG-nd-ch8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mRb-sE-a01"/>
                             <constraint firstItem="5Tw-bw-kaR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yMG-xX-SbJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="9h2-yN-gBC"/>
+                    <connections>
+                        <outlet property="textField" destination="UlG-nd-ch8" id="Pgh-h0-6qS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
