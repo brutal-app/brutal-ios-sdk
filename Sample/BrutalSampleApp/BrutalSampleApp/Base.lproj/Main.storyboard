@@ -33,13 +33,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KJ-tK-aOW">
+                                <rect key="frame" x="161" y="356.5" width="53" height="30"/>
+                                <state key="normal" title="Present">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="I9f-81-zYA" kind="presentation" id="DfB-Od-6oE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.80784313730000001" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5Tw-bw-kaR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Ah-ga-650"/>
+                            <constraint firstItem="5KJ-tK-aOW" firstAttribute="top" secondItem="5Tw-bw-kaR" secondAttribute="bottom" constant="8" symbolic="YES" id="Aqu-vc-jDO"/>
                             <constraint firstItem="UlG-nd-ch8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="QwL-US-KGM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UlG-nd-ch8" secondAttribute="trailing" constant="16" id="dsv-Fn-ye9"/>
                             <constraint firstItem="UlG-nd-ch8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mRb-sE-a01"/>
+                            <constraint firstItem="5KJ-tK-aOW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xmR-Eh-r4o"/>
                             <constraint firstItem="5Tw-bw-kaR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yMG-xX-SbJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -52,6 +63,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="133.5832083958021"/>
+        </scene>
+        <!--Presented View Controller-->
+        <scene sceneID="amB-Yn-yvI">
+            <objects>
+                <viewController id="I9f-81-zYA" customClass="PresentedViewController" customModule="BrutalSampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mHG-DU-saB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhn-07-UfP">
+                                <rect key="frame" x="160.5" y="318.5" width="54" height="30"/>
+                                <state key="normal" title="Dismiss">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissViewController:" destination="I9f-81-zYA" eventType="touchUpInside" id="QbP-Ze-AY9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83921568629999999" green="0.46666666670000001" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yhn-07-UfP" firstAttribute="centerY" secondItem="mHG-DU-saB" secondAttribute="centerY" id="NAh-W0-7Vd"/>
+                            <constraint firstItem="Yhn-07-UfP" firstAttribute="centerX" secondItem="mHG-DU-saB" secondAttribute="centerX" id="byT-T4-jS5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lXU-hZ-bfk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1oe-5T-T6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="936"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="G63-xS-Yrp">
