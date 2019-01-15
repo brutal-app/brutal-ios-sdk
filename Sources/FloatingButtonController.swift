@@ -5,7 +5,6 @@ class FloatingButtonController: UIViewController {
 
     private let recordButton: UIButton = {
         let button = UIButton(type: .custom)
-        button.setTitle("Record", for: .normal)
         button.setTitleColor(UIColor.red, for: .normal)
         button.backgroundColor = UIColor.white
         button.layer.shadowColor = UIColor.black.cgColor
@@ -49,7 +48,7 @@ class FloatingButtonController: UIViewController {
         window.button = recordButton
         let panner = UIPanGestureRecognizer(target: self, action: #selector(panDidFire(panner:)))
         recordButton.addGestureRecognizer(panner)
-        recordButton.addTarget(self, action: #selector(startRecording), for: .touchUpInside)
+        updateUI(recorder.isRecording)
     }
 
     @objc func startRecording() {
@@ -59,6 +58,44 @@ class FloatingButtonController: UIViewController {
                 return
             }
             NSLog("Start recording")
+            self.updateUI(true)
+        }
+    }
+
+    @objc func stopRecording() {
+        recorder.stopRecording(handler: { [unowned self] (previewViewController, error) in
+            self.updateUI(false)
+
+            if let error = error {
+                NSLog("Failed stop recording: \(error.localizedDescription)")
+                return
+            }
+
+            NSLog("Stop recording")
+            previewViewController?.previewControllerDelegate = self
+
+            DispatchQueue.main.async { [unowned self] in
+                previewViewController?.popoverPresentationController?.sourceView = self.view
+                self.present(previewViewController!, animated: true, completion: nil)
+            }
+        })
+    }
+
+    private func updateUI(_ isRecording: Bool) {
+        DispatchQueue.main.async { [unowned self] in
+            if !self.recorder.isAvailable {
+                self.recordButton.isEnabled = false
+                return
+            }
+            if isRecording {
+                self.recordButton.setTitle("Stop", for: .normal)
+                self.recordButton.removeTarget(self, action: #selector(self.startRecording), for: .touchUpInside)
+                self.recordButton.addTarget(self, action: #selector(self.stopRecording), for: .touchUpInside)
+            } else {
+                self.recordButton.setTitle("Start", for: .normal)
+                self.recordButton.removeTarget(self, action: #selector(self.stopRecording), for: .touchUpInside)
+                self.recordButton.addTarget(self, action: #selector(self.startRecording), for: .touchUpInside)
+            }
         }
     }
 
@@ -116,5 +153,13 @@ class FloatingButtonController: UIViewController {
             CGPoint(x: rect.maxX - 20, y: rect.maxY - 20 - keyboardHeight),
         ]
         return sockets
+    }
+}
+
+extension FloatingButtonController: RPPreviewViewControllerDelegate {
+    func previewControllerDidFinish(_ previewController: RPPreviewViewController) {
+        DispatchQueue.main.async { [unowned previewController] in
+            previewController.dismiss(animated: true, completion: nil)
+        }
     }
 }
