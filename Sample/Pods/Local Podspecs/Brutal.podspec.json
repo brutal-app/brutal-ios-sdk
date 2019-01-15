@@ -13,13 +13,16 @@
   },
   "social_media_url": "",
   "platforms": {
-    "ios": "9.0",
-    "tvos": "9.0"
+    "ios": "9.0"
   },
   "source": {
     "git": "https://github.com/tiagomartinho/brutal-ios-sdk.git",
     "tag": "0.1"
   },
   "source_files": "Sources/**/*",
-  "frameworks": "Foundation"
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "ReplayKit"
+  ]
 }
