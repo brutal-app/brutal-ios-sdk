@@ -5,6 +5,7 @@ class FloatingButtonController: UIViewController {
 
     private let recordButton: UIButton = {
         let button = UIButton(type: .custom)
+        button.setTitle("Start", for: .normal)
         button.setTitleColor(UIColor.red, for: .normal)
         button.backgroundColor = UIColor.white
         button.layer.shadowColor = UIColor.black.cgColor

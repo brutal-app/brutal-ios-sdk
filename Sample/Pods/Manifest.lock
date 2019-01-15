@@ -2,15 +2,15 @@ PODS:
   - Brutal (0.1)
 
 DEPENDENCIES:
-  - Brutal (from `../../`)
+  - Brutal (from `../`)
 
 EXTERNAL SOURCES:
   Brutal:
-    :path: "../../"
+    :path: "../"
 
 SPEC CHECKSUMS:
   Brutal: 11770584563120d56993cf64f0688eae0b9d6f89
 
-PODFILE CHECKSUM: 97a64b5e81d844402ad915de3118fe84cf362ba3
+PODFILE CHECKSUM: 1b35ae06c0a387b8973c84a56f0503e01137e54f
 
 COCOAPODS: 1.5.3

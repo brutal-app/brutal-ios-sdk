@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		032F36F01ED62F8F89FC122E65459498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		14DE8153A491D9D79C7639DE7DE0E45F /* FloatingButtonWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFAAF1B87BC1D429181ADE43D3FBC84 /* FloatingButtonWindow.swift */; };
+		14DE8153A491D9D79C7639DE7DE0E45F /* FloatingButtonWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BCF95EC497A88E2EC8D474D01893D5 /* FloatingButtonWindow.swift */; };
 		6428A0FFF7FC4ACA3AC605177EACC77D /* Pods-BrutalSampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35FBC57121F244D2F02D346BCAC47338 /* Pods-BrutalSampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AEACB47215790815F69C79BD4E88484 /* Brutal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D45884C4CD028EA136D84F6795A00A /* Brutal-dummy.m */; };
-		71DACA69781A96ADD3DC2D1072AD4D3C /* BrutalSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38641C98EB8AE77596D0860DF86D934 /* BrutalSDK.swift */; };
-		94EAB44D076F70E542AF7E1ADF341C6A /* FloatingButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CF872B05682AB99209B24C4B955588 /* FloatingButtonController.swift */; };
+		6AEACB47215790815F69C79BD4E88484 /* Brutal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AEEFD869C648A18566995C0F56C2B9 /* Brutal-dummy.m */; };
+		71DACA69781A96ADD3DC2D1072AD4D3C /* BrutalSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60F9CFC03BB99EB4A45BAA4829BFC0 /* BrutalSDK.swift */; };
+		94EAB44D076F70E542AF7E1ADF341C6A /* FloatingButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08082EC4D06463AD0EF2588E166C28D9 /* FloatingButtonController.swift */; };
 		98DB08EDAD04339CC4489BC21A0BA112 /* Pods-BrutalSampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF918DECC1174454FD4DC363115FE20E /* Pods-BrutalSampleApp-dummy.m */; };
-		A514E239C393D14A6767E16CBA2DE3DF /* Brutal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 205641CA596E9E207F5C9C16DAB4C327 /* Brutal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A514E239C393D14A6767E16CBA2DE3DF /* Brutal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BCA22C946A01920666D9DE8A754319 /* Brutal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D603C1D0EAB194623BAF0765CDEF4C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,32 +29,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0542152D9406279BF4FD2E59CB3E3E2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		05B918143B3BA0B7E68AB430995309AB /* Pods-BrutalSampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BrutalSampleApp-resources.sh"; sourceTree = "<group>"; };
+		08082EC4D06463AD0EF2588E166C28D9 /* FloatingButtonController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingButtonController.swift; path = Sources/FloatingButtonController.swift; sourceTree = "<group>"; };
 		0E81CE3B717E42E403F6C3BA8FAAAF3A /* Pods-BrutalSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrutalSampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		12D45884C4CD028EA136D84F6795A00A /* Brutal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Brutal-dummy.m"; sourceTree = "<group>"; };
-		1C114B8457A9EFB97C01B3EBB1853321 /* Brutal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brutal-prefix.pch"; sourceTree = "<group>"; };
+		16BCA22C946A01920666D9DE8A754319 /* Brutal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brutal-umbrella.h"; sourceTree = "<group>"; };
 		1EE28D7F23BDE129DE320817EDE1AA84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		205641CA596E9E207F5C9C16DAB4C327 /* Brutal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brutal-umbrella.h"; sourceTree = "<group>"; };
+		28737DCADFDF385F002B236CE9939F2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35FBC57121F244D2F02D346BCAC47338 /* Pods-BrutalSampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BrutalSampleApp-umbrella.h"; sourceTree = "<group>"; };
 		3B84D1B273A23C2E6FC3C3AB52FFF0C9 /* Pods-BrutalSampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrutalSampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		40A39DF87D0924E692921AA2DE120331 /* Brutal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brutal-prefix.pch"; sourceTree = "<group>"; };
+		4C1A00B665B3BBC7DF8044B175B697D0 /* Brutal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Brutal.modulemap; sourceTree = "<group>"; };
+		4D60F9CFC03BB99EB4A45BAA4829BFC0 /* BrutalSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrutalSDK.swift; path = Sources/BrutalSDK.swift; sourceTree = "<group>"; };
 		56E8C301F0BE188AE3AEE73FD6F64943 /* Pods_BrutalSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BrutalSampleApp.framework; path = "Pods-BrutalSampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E5C91DF9A66FACFABC7C487152D365E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64CF872B05682AB99209B24C4B955588 /* FloatingButtonController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingButtonController.swift; path = Sources/FloatingButtonController.swift; sourceTree = "<group>"; };
+		62AEEFD869C648A18566995C0F56C2B9 /* Brutal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Brutal-dummy.m"; sourceTree = "<group>"; };
 		914EF4EB032659375C1C0A366A18E44A /* Pods-BrutalSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrutalSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		950338D220D019AA9DAFE29413F676C3 /* Pods-BrutalSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BrutalSampleApp-frameworks.sh"; sourceTree = "<group>"; };
+		98F20D8736D56057A71E2D6A4B8FED7E /* Brutal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Brutal.xcconfig; sourceTree = "<group>"; };
 		9B837B062A047D17D207970F1F992F5C /* Brutal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Brutal.framework; path = Brutal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A38641C98EB8AE77596D0860DF86D934 /* BrutalSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrutalSDK.swift; path = Sources/BrutalSDK.swift; sourceTree = "<group>"; };
-		AA023A8313DF3B1B6D47CDF8B5EFB644 /* Brutal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Brutal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADC43BDA4799164A8B9CB1684C466691 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AF51F31D2B2B9890F72BAF2D95D964D6 /* Brutal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Brutal.modulemap; sourceTree = "<group>"; };
-		B54F8D171967B3FC7FD6B6BB42CE1618 /* Brutal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Brutal.xcconfig; sourceTree = "<group>"; };
-		CBFAAF1B87BC1D429181ADE43D3FBC84 /* FloatingButtonWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingButtonWindow.swift; path = Sources/FloatingButtonWindow.swift; sourceTree = "<group>"; };
+		B8BCF95EC497A88E2EC8D474D01893D5 /* FloatingButtonWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingButtonWindow.swift; path = Sources/FloatingButtonWindow.swift; sourceTree = "<group>"; };
+		BB4B0EB57FAB4ACA4384434B8F4DF9D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF918DECC1174454FD4DC363115FE20E /* Pods-BrutalSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BrutalSampleApp-dummy.m"; sourceTree = "<group>"; };
 		E15BAE94E616C9250605B58DC30415A1 /* Pods-BrutalSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BrutalSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3AD3252E8A85A1DC073242A29CE3DD3 /* Pods-BrutalSampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BrutalSampleApp.modulemap"; sourceTree = "<group>"; };
+		F64E9E854F0D1E1D98D28AB6F309E108 /* Brutal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Brutal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD6E4DFDA467192B60EDB1E8EF5152D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,18 +77,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1676B28467DE5B507FA749CAA36DE1B9 /* Support Files */ = {
+		039922C5DE626A8AB12EAC19F07E69DD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AF51F31D2B2B9890F72BAF2D95D964D6 /* Brutal.modulemap */,
-				B54F8D171967B3FC7FD6B6BB42CE1618 /* Brutal.xcconfig */,
-				12D45884C4CD028EA136D84F6795A00A /* Brutal-dummy.m */,
-				1C114B8457A9EFB97C01B3EBB1853321 /* Brutal-prefix.pch */,
-				205641CA596E9E207F5C9C16DAB4C327 /* Brutal-umbrella.h */,
-				5E5C91DF9A66FACFABC7C487152D365E /* Info.plist */,
+				4C1A00B665B3BBC7DF8044B175B697D0 /* Brutal.modulemap */,
+				98F20D8736D56057A71E2D6A4B8FED7E /* Brutal.xcconfig */,
+				62AEEFD869C648A18566995C0F56C2B9 /* Brutal-dummy.m */,
+				40A39DF87D0924E692921AA2DE120331 /* Brutal-prefix.pch */,
+				16BCA22C946A01920666D9DE8A754319 /* Brutal-umbrella.h */,
+				28737DCADFDF385F002B236CE9939F2C /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "Sample/BrutalSampleApp/Pods/Target Support Files/Brutal";
+			path = "Sample/Pods/Target Support Files/Brutal";
+			sourceTree = "<group>";
+		};
+		20986347635C04FFBC79F3186B2D292D /* Brutal */ = {
+			isa = PBXGroup;
+			children = (
+				4D60F9CFC03BB99EB4A45BAA4829BFC0 /* BrutalSDK.swift */,
+				08082EC4D06463AD0EF2588E166C28D9 /* FloatingButtonController.swift */,
+				B8BCF95EC497A88E2EC8D474D01893D5 /* FloatingButtonWindow.swift */,
+				75C0E2AA8034C7E7B07DB08F8A7A239A /* Pod */,
+				039922C5DE626A8AB12EAC19F07E69DD /* Support Files */,
+			);
+			name = Brutal;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		21A62802635ED3E7DF2E8583330A154D /* Pods-BrutalSampleApp */ = {
@@ -109,16 +122,6 @@
 			path = "Target Support Files/Pods-BrutalSampleApp";
 			sourceTree = "<group>";
 		};
-		2E96E3FCEB4703DAB09A41C1771B7390 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AA023A8313DF3B1B6D47CDF8B5EFB644 /* Brutal.podspec */,
-				0542152D9406279BF4FD2E59CB3E3E2F /* LICENSE */,
-				ADC43BDA4799164A8B9CB1684C466691 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,11 +130,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		75C0E2AA8034C7E7B07DB08F8A7A239A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F64E9E854F0D1E1D98D28AB6F309E108 /* Brutal.podspec */,
+				BB4B0EB57FAB4ACA4384434B8F4DF9D8 /* LICENSE */,
+				FD6E4DFDA467192B60EDB1E8EF5152D6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		784E2383750C08DEDF04EE5936502517 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20986347635C04FFBC79F3186B2D292D /* Brutal */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FC00437A77EBE7F18E2F22488E9E9BC0 /* Development Pods */,
+				784E2383750C08DEDF04EE5936502517 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E543D10F419D06F1E154E96F04EA1B61 /* Products */,
 				D304E5B8B66E4416BF6210BEB9F69AFF /* Targets Support Files */,
@@ -154,19 +175,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DFF6B1E54795A3E7B0B1B9EBBA1776BD /* Brutal */ = {
-			isa = PBXGroup;
-			children = (
-				A38641C98EB8AE77596D0860DF86D934 /* BrutalSDK.swift */,
-				64CF872B05682AB99209B24C4B955588 /* FloatingButtonController.swift */,
-				CBFAAF1B87BC1D429181ADE43D3FBC84 /* FloatingButtonWindow.swift */,
-				2E96E3FCEB4703DAB09A41C1771B7390 /* Pod */,
-				1676B28467DE5B507FA749CAA36DE1B9 /* Support Files */,
-			);
-			name = Brutal;
-			path = ../../..;
-			sourceTree = "<group>";
-		};
 		E543D10F419D06F1E154E96F04EA1B61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,14 +182,6 @@
 				56E8C301F0BE188AE3AEE73FD6F64943 /* Pods_BrutalSampleApp.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FC00437A77EBE7F18E2F22488E9E9BC0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DFF6B1E54795A3E7B0B1B9EBBA1776BD /* Brutal */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +321,7 @@
 /* Begin XCBuildConfiguration section */
 		065E1EA4316298F5294EA091F70E195A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B54F8D171967B3FC7FD6B6BB42CE1618 /* Brutal.xcconfig */;
+			baseConfigurationReference = 98F20D8736D56057A71E2D6A4B8FED7E /* Brutal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -560,7 +560,7 @@
 		};
 		A3CA7F2639AE6822055AE77EA918AB1C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B54F8D171967B3FC7FD6B6BB42CE1618 /* Brutal.xcconfig */;
+			baseConfigurationReference = 98F20D8736D56057A71E2D6A4B8FED7E /* Brutal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
