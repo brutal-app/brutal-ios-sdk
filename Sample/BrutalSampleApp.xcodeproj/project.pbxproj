@@ -13,6 +13,7 @@
 		2462B19721ECAF4400557F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2462B19621ECAF4400557F88 /* Assets.xcassets */; };
 		2462B19A21ECAF4400557F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2462B19821ECAF4400557F88 /* LaunchScreen.storyboard */; };
 		24D4C9B521EDE945009F9E1D /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4C9B421EDE945009F9E1D /* PresentedViewController.swift */; };
+		24F6917921FF162C0005082C /* PushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6917821FF162C0005082C /* PushedViewController.swift */; };
 		784822DB41C6F34EC43DAFDF /* Pods_BrutalSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB7FDD4DB377459CD2ED6F8 /* Pods_BrutalSampleApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		2462B19921ECAF4400557F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2462B19B21ECAF4400557F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24D4C9B421EDE945009F9E1D /* PresentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
+		24F6917821FF162C0005082C /* PushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushedViewController.swift; sourceTree = "<group>"; };
 		43244D2E4836E0FEA2338571 /* Pods-BrutalSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrutalSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrutalSampleApp/Pods-BrutalSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		EDB7FDD4DB377459CD2ED6F8 /* Pods_BrutalSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrutalSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 			children = (
 				2462B18F21ECAF4200557F88 /* AppDelegate.swift */,
 				2462B19121ECAF4200557F88 /* ViewController.swift */,
+				24F6917821FF162C0005082C /* PushedViewController.swift */,
 				24D4C9B421EDE945009F9E1D /* PresentedViewController.swift */,
 				2462B19321ECAF4200557F88 /* Main.storyboard */,
 				2462B19621ECAF4400557F88 /* Assets.xcassets */,
@@ -213,6 +216,7 @@
 			files = (
 				2462B19221ECAF4200557F88 /* ViewController.swift in Sources */,
 				2462B19021ECAF4200557F88 /* AppDelegate.swift in Sources */,
+				24F6917921FF162C0005082C /* PushedViewController.swift in Sources */,
 				24D4C9B521EDE945009F9E1D /* PresentedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

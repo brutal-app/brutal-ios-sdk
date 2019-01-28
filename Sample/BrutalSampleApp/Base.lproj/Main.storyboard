@@ -94,14 +94,29 @@
             </objects>
             <point key="canvasLocation" x="1076" y="936"/>
         </scene>
-        <!--View Controller-->
+        <!--Pushed View Controller-->
         <scene sceneID="G63-xS-Yrp">
             <objects>
-                <viewController id="wJL-V0-SVN" sceneMemberID="viewController">
+                <viewController id="wJL-V0-SVN" customClass="PushedViewController" customModule="BrutalSampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W1h-J7-DpL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ks1-Ww-dhu">
+                                <rect key="frame" x="150" y="318.5" width="75" height="30"/>
+                                <state key="normal" title="Show Alert">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlert:" destination="wJL-V0-SVN" eventType="touchUpInside" id="rbU-m0-k8g"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.18039215689999999" green="0.80000000000000004" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ks1-Ww-dhu" firstAttribute="centerY" secondItem="W1h-J7-DpL" secondAttribute="centerY" id="0g7-5c-edh"/>
+                            <constraint firstItem="Ks1-Ww-dhu" firstAttribute="centerX" secondItem="W1h-J7-DpL" secondAttribute="centerX" id="4d8-eC-SB3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Tes-3f-OAN"/>
                     </view>
                 </viewController>
