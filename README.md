@@ -47,3 +47,17 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     return true
 }
 ```
+
+## Contribute
+
+1) Install local Pod:
+```bash
+$ pod install --project-directory=Sample
+```
+
+2) Open Xcode Workspace
+```bash
+$ open Sample/BrutalSampleApp.xcworkspace
+```
+
+3) Run BrutalSampleApp Scheme
