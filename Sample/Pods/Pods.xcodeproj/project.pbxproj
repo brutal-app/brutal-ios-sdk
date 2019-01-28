@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0407742504C2EE119B6EB0D4B258939D /* Pods-BrutalSampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B43B621577AB7584210F246122E2A158 /* Pods-BrutalSampleApp-dummy.m */; };
-		14E2D42613B1919BA1CCFD129610A2C4 /* Brutal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCDB95F1B2AB89B3CBDAD5D871B5388 /* Brutal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1826DCC9A1432391CDE52F2408D493B1 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 5777B89F22FBE48D17757BE7FEE22F61 /* record.png */; };
+		292C017A012291235B15C7C50D992186 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCCB1962BFE24935606F326F82E9398 /* UIKit.framework */; };
+		318AFE4E045A2F48F252F266300B96D0 /* record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7949D72E7EF0ECDD684B4E0EC9FD00 /* record@2x.png */; };
 		3891DDC9E9BFD3E3E20B43BDC62D8B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635B1047D69FDC914A539A5183C5E80 /* Foundation.framework */; };
-		528876C6BA2E8995E8EC414998475620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635B1047D69FDC914A539A5183C5E80 /* Foundation.framework */; };
-		73CE8B3F009F0CAC77EEE7D8C232FCD4 /* Brutal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C6ED79A9F9978AE6B2D55090408D9 /* Brutal-dummy.m */; };
-		9849458D81CC5149B2D02FB3AB69FF1D /* BrutalSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB4FBC00D681B35C77B9A0325EF706 /* BrutalSDK.swift */; };
-		99DE166B7E58BFBE3E2385BB7250039B /* FloatingButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB346BE12791DDE7A2532498E2BF7A3 /* FloatingButtonController.swift */; };
-		ABDF75DFEC3BFDE68518466810E9BEE4 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65F8372F6098501E49CAD98C332FCA2 /* ReplayKit.framework */; };
-		B454C87E0E4FADFC170773D8C38C6D8B /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE5F1B70F7A4589C83C5956D42D07F2 /* record.png */; };
+		3F552073C80A27252AD227F4B69B2F07 /* FloatingButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F7AFB8DAAE74319CB528ED15163491 /* FloatingButtonController.swift */; };
+		427AF4D8D5F3486ABA6EDE4F535D5903 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1465B46446573DBFCC72A644CCEE87 /* stop.png */; };
+		4AA5F0BA969756F7F1C70DB59E5275D1 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65F8372F6098501E49CAD98C332FCA2 /* ReplayKit.framework */; };
+		5C8CFCC0783346575E937D69F7576C68 /* Brutal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34726EF7E2C9C81DB85C47A7AEC1533F /* Brutal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87C5E0A35D5FA8F84146F5E3A760B5A7 /* record@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5008B07132CB6EDE01C1D59EEF3F6CA2 /* record@3x.png */; };
+		913CD48A2D4A33365834F18D4DF4D013 /* stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFAC9C63AD26B0BE1F1AEC350C9B82A /* stop@2x.png */; };
+		AD9CEF79871DC940FADD3F8481DEC46A /* stop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D2FF9ECAF309DC830F338EDF44BCE6 /* stop@3x.png */; };
+		B3D67D9C408D55CA4D103AD968DCB744 /* Brutal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3191C58101686AED414097E76A5E41 /* Brutal-dummy.m */; };
+		BACC29510C1FA734BBB185811CA0B39B /* BrutalSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678165AE3798B853F57420A345EB8A45 /* BrutalSDK.swift */; };
 		BE6C2CAD976967126F6930AAB8C2DC8E /* Pods-BrutalSampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC7DA0CB3CE73B639C7447CE188030F /* Pods-BrutalSampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCFF640EC1E137D924F283EAB1556358 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 015D0054F7655328A0A319559ED0B520 /* stop.png */; };
-		D6B10710C708AC69811C9BB77C52C3E0 /* FloatingButtonWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815D4FE5D771DAFDEB127912F72096C /* FloatingButtonWindow.swift */; };
-		EB39FE3C43C169A77F6F10C042C3D73F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCCB1962BFE24935606F326F82E9398 /* UIKit.framework */; };
+		CE15265D9B0428B253AD17C05972BEDF /* FloatingButtonWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77058E22FA69F0D2A5DCD90DD7AD1D8 /* FloatingButtonWindow.swift */; };
+		EB9B8839D497F12CBA9D879B3DFF0774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635B1047D69FDC914A539A5183C5E80 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,42 +31,46 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4162443D3ADCE812EDE9C7CA18C435AD;
+			remoteGlobalIDString = 98E004E7EEDB565425A393933B4FE8AD;
 			remoteInfo = Brutal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015D0054F7655328A0A319559ED0B520 /* stop.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stop.png; path = Assets/stop.png; sourceTree = "<group>"; };
 		1635B1047D69FDC914A539A5183C5E80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1C899E1A2DEB185E725B650A85B1D454 /* Brutal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Brutal.xcconfig; sourceTree = "<group>"; };
-		1DB346BE12791DDE7A2532498E2BF7A3 /* FloatingButtonController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingButtonController.swift; path = Sources/FloatingButtonController.swift; sourceTree = "<group>"; };
+		16A25A3185A9E345BFD77FB522CBA1F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1B9951ECB9C6A780AABB80650F24FAAA /* Brutal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brutal-prefix.pch"; sourceTree = "<group>"; };
 		23BBC1BE949F402E0119EAE73866295D /* Pods-BrutalSampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrutalSampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		267AE7380AECEC6A302586842BBDDA62 /* Brutal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Brutal.framework; path = Brutal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2ED5B4926DF7AB7C3C1C8E239930E1EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FAD8CC342E8A64225D518A29A88D0EE /* Pods-BrutalSampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BrutalSampleApp-frameworks.sh"; sourceTree = "<group>"; };
 		2FC7DA0CB3CE73B639C7447CE188030F /* Pods-BrutalSampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BrutalSampleApp-umbrella.h"; sourceTree = "<group>"; };
-		46D333130117D97C704D02A3A85A76D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		34726EF7E2C9C81DB85C47A7AEC1533F /* Brutal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brutal-umbrella.h"; sourceTree = "<group>"; };
+		3F7949D72E7EF0ECDD684B4E0EC9FD00 /* record@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "record@2x.png"; path = "Assets/record@2x.png"; sourceTree = "<group>"; };
+		46828ED3EEDC084594D36AF5FA9D24EB /* Brutal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Brutal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		48CDDA1DB35060B2D8FAF72DDA898C14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BCDB95F1B2AB89B3CBDAD5D871B5388 /* Brutal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brutal-umbrella.h"; sourceTree = "<group>"; };
+		4FF8710D5046800F93FF6810E94DCBB5 /* Brutal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Brutal.modulemap; sourceTree = "<group>"; };
+		5008B07132CB6EDE01C1D59EEF3F6CA2 /* record@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "record@3x.png"; path = "Assets/record@3x.png"; sourceTree = "<group>"; };
+		5777B89F22FBE48D17757BE7FEE22F61 /* record.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = record.png; path = Assets/record.png; sourceTree = "<group>"; };
+		5B3191C58101686AED414097E76A5E41 /* Brutal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Brutal-dummy.m"; sourceTree = "<group>"; };
+		678165AE3798B853F57420A345EB8A45 /* BrutalSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrutalSDK.swift; path = Sources/BrutalSDK.swift; sourceTree = "<group>"; };
 		68533ABE9C7A95D205237648F45E7E33 /* Pods-BrutalSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrutalSampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		7719BF59D0D05485624064C3A905FD03 /* Brutal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Brutal.modulemap; sourceTree = "<group>"; };
-		7AE5F1B70F7A4589C83C5956D42D07F2 /* record.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = record.png; path = Assets/record.png; sourceTree = "<group>"; };
 		7B6AEDCB7679334A05AFDA5E23B6592B /* Pods-BrutalSampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BrutalSampleApp-resources.sh"; sourceTree = "<group>"; };
-		8815D4FE5D771DAFDEB127912F72096C /* FloatingButtonWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingButtonWindow.swift; path = Sources/FloatingButtonWindow.swift; sourceTree = "<group>"; };
+		81F7AFB8DAAE74319CB528ED15163491 /* FloatingButtonController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingButtonController.swift; path = Sources/FloatingButtonController.swift; sourceTree = "<group>"; };
 		8A52CDA7FC9836115C56FF66BD84C789 /* Pods_BrutalSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BrutalSampleApp.framework; path = "Pods-BrutalSampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D8C6ED79A9F9978AE6B2D55090408D9 /* Brutal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Brutal-dummy.m"; sourceTree = "<group>"; };
 		8FCCB1962BFE24935606F326F82E9398 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		931043FCAD48F8A0C4AEC67C48393421 /* Pods-BrutalSampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BrutalSampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		960DB8432C80A0858E86C12A1ACF862E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A7D2FF9ECAF309DC830F338EDF44BCE6 /* stop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stop@3x.png"; path = "Assets/stop@3x.png"; sourceTree = "<group>"; };
+		B118343FA48C01A225412935F31CC24E /* Brutal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Brutal.xcconfig; sourceTree = "<group>"; };
 		B43B621577AB7584210F246122E2A158 /* Pods-BrutalSampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BrutalSampleApp-dummy.m"; sourceTree = "<group>"; };
 		B64244943AD7D7655F91A99586A67E1F /* Pods-BrutalSampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BrutalSampleApp.modulemap"; sourceTree = "<group>"; };
-		C16441F8CDED54A2C75B2EA43B615111 /* Brutal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Brutal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B73D1B63626BC630152E5F0986581201 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B77058E22FA69F0D2A5DCD90DD7AD1D8 /* FloatingButtonWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingButtonWindow.swift; path = Sources/FloatingButtonWindow.swift; sourceTree = "<group>"; };
 		C65F8372F6098501E49CAD98C332FCA2 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/ReplayKit.framework; sourceTree = DEVELOPER_DIR; };
 		C6EFEA2BD2B9FE8458DF7B1A82912CDC /* Pods-BrutalSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrutalSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		C9F72BCC11B2C256AF1925EB1CF5C2A5 /* Brutal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Brutal-prefix.pch"; sourceTree = "<group>"; };
-		E7EB4FBC00D681B35C77B9A0325EF706 /* BrutalSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrutalSDK.swift; path = Sources/BrutalSDK.swift; sourceTree = "<group>"; };
+		CC1465B46446573DBFCC72A644CCEE87 /* stop.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stop.png; path = Assets/stop.png; sourceTree = "<group>"; };
+		D64E12211A52596B7238D691A6EC05E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFAC9C63AD26B0BE1F1AEC350C9B82A /* stop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stop@2x.png"; path = "Assets/stop@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,13 +82,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFAEF117183EEF839F6FCF32AE9F89C0 /* Frameworks */ = {
+		17ACF7166B8DA601C3C7359C17DBEABC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528876C6BA2E8995E8EC414998475620 /* Foundation.framework in Frameworks */,
-				ABDF75DFEC3BFDE68518466810E9BEE4 /* ReplayKit.framework in Frameworks */,
-				EB39FE3C43C169A77F6F10C042C3D73F /* UIKit.framework in Frameworks */,
+				EB9B8839D497F12CBA9D879B3DFF0774 /* Foundation.framework in Frameworks */,
+				4AA5F0BA969756F7F1C70DB59E5275D1 /* ReplayKit.framework in Frameworks */,
+				292C017A012291235B15C7C50D992186 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,18 +111,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2BFDEC743EFEF230DC4198B3A66DD198 /* Support Files */ = {
+		42EEE3466C6F501624EE9C02C041943C /* Brutal */ = {
 			isa = PBXGroup;
 			children = (
-				7719BF59D0D05485624064C3A905FD03 /* Brutal.modulemap */,
-				1C899E1A2DEB185E725B650A85B1D454 /* Brutal.xcconfig */,
-				8D8C6ED79A9F9978AE6B2D55090408D9 /* Brutal-dummy.m */,
-				C9F72BCC11B2C256AF1925EB1CF5C2A5 /* Brutal-prefix.pch */,
-				4BCDB95F1B2AB89B3CBDAD5D871B5388 /* Brutal-umbrella.h */,
-				2ED5B4926DF7AB7C3C1C8E239930E1EC /* Info.plist */,
+				678165AE3798B853F57420A345EB8A45 /* BrutalSDK.swift */,
+				81F7AFB8DAAE74319CB528ED15163491 /* FloatingButtonController.swift */,
+				B77058E22FA69F0D2A5DCD90DD7AD1D8 /* FloatingButtonWindow.swift */,
+				8295BF878D6D807A4B05C629E056DB66 /* Pod */,
+				E3294D813181343ECCE2CC60BE01C924 /* Resources */,
+				AE9ABC0F90FF54AE28450A6415730E4B /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Sample/Pods/Target Support Files/Brutal";
+			name = Brutal;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		45AFADE8E28C06A0DA7809F0EFEC7429 /* Products */ = {
@@ -124,20 +132,6 @@
 				8A52CDA7FC9836115C56FF66BD84C789 /* Pods_BrutalSampleApp.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4696D4A43FFEC6433C24F551E7958D33 /* Brutal */ = {
-			isa = PBXGroup;
-			children = (
-				E7EB4FBC00D681B35C77B9A0325EF706 /* BrutalSDK.swift */,
-				1DB346BE12791DDE7A2532498E2BF7A3 /* FloatingButtonController.swift */,
-				8815D4FE5D771DAFDEB127912F72096C /* FloatingButtonWindow.swift */,
-				95212535229FC89F3AC45C439C0253F3 /* Pod */,
-				881AEBD541E46066A6472BEB2CAD5AB4 /* Resources */,
-				2BFDEC743EFEF230DC4198B3A66DD198 /* Support Files */,
-			);
-			name = Brutal;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		5BB425A9E1603EB8A24A1C2B5211DC05 /* iOS */ = {
@@ -153,26 +147,17 @@
 		63F092649691323CF91BA8C585E329A4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4696D4A43FFEC6433C24F551E7958D33 /* Brutal */,
+				42EEE3466C6F501624EE9C02C041943C /* Brutal */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		881AEBD541E46066A6472BEB2CAD5AB4 /* Resources */ = {
+		8295BF878D6D807A4B05C629E056DB66 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7AE5F1B70F7A4589C83C5956D42D07F2 /* record.png */,
-				015D0054F7655328A0A319559ED0B520 /* stop.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		95212535229FC89F3AC45C439C0253F3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C16441F8CDED54A2C75B2EA43B615111 /* Brutal.podspec */,
-				46D333130117D97C704D02A3A85A76D8 /* LICENSE */,
-				960DB8432C80A0858E86C12A1ACF862E /* README.md */,
+				46828ED3EEDC084594D36AF5FA9D24EB /* Brutal.podspec */,
+				B73D1B63626BC630152E5F0986581201 /* LICENSE */,
+				16A25A3185A9E345BFD77FB522CBA1F4 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -195,6 +180,20 @@
 			path = "Target Support Files/Pods-BrutalSampleApp";
 			sourceTree = "<group>";
 		};
+		AE9ABC0F90FF54AE28450A6415730E4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FF8710D5046800F93FF6810E94DCBB5 /* Brutal.modulemap */,
+				B118343FA48C01A225412935F31CC24E /* Brutal.xcconfig */,
+				5B3191C58101686AED414097E76A5E41 /* Brutal-dummy.m */,
+				1B9951ECB9C6A780AABB80650F24FAAA /* Brutal-prefix.pch */,
+				34726EF7E2C9C81DB85C47A7AEC1533F /* Brutal-umbrella.h */,
+				D64E12211A52596B7238D691A6EC05E1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/Brutal";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -206,17 +205,22 @@
 			);
 			sourceTree = "<group>";
 		};
+		E3294D813181343ECCE2CC60BE01C924 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5777B89F22FBE48D17757BE7FEE22F61 /* record.png */,
+				3F7949D72E7EF0ECDD684B4E0EC9FD00 /* record@2x.png */,
+				5008B07132CB6EDE01C1D59EEF3F6CA2 /* record@3x.png */,
+				CC1465B46446573DBFCC72A644CCEE87 /* stop.png */,
+				FFFAC9C63AD26B0BE1F1AEC350C9B82A /* stop@2x.png */,
+				A7D2FF9ECAF309DC830F338EDF44BCE6 /* stop@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6F9F517D3AA8CFA0137399D5FAB71928 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14E2D42613B1919BA1CCFD129610A2C4 /* Brutal-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C44427A9F51F5E4B20A2C3D209F7BCBD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,17 +229,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E48B71B864F40BE3208091F371E652B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8CFCC0783346575E937D69F7576C68 /* Brutal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4162443D3ADCE812EDE9C7CA18C435AD /* Brutal */ = {
+		98E004E7EEDB565425A393933B4FE8AD /* Brutal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A606A8AB9CCE11472643E02BB9B30DD /* Build configuration list for PBXNativeTarget "Brutal" */;
+			buildConfigurationList = C8AE1FF3C2D57AD0776012991508FDB7 /* Build configuration list for PBXNativeTarget "Brutal" */;
 			buildPhases = (
-				6F9F517D3AA8CFA0137399D5FAB71928 /* Headers */,
-				8E4C71BB6DDF4D707EA07C3CF6B8890C /* Sources */,
-				AFAEF117183EEF839F6FCF32AE9F89C0 /* Frameworks */,
-				F0B22E6B566EF878059C7B50CB3FED53 /* Resources */,
+				E48B71B864F40BE3208091F371E652B7 /* Headers */,
+				FEAD9D9C3BD57C15B5400235BD7CEB21 /* Sources */,
+				17ACF7166B8DA601C3C7359C17DBEABC /* Frameworks */,
+				E3099B447474FA4C8B4E43081A71C79C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -286,7 +298,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4162443D3ADCE812EDE9C7CA18C435AD /* Brutal */,
+				98E004E7EEDB565425A393933B4FE8AD /* Brutal */,
 				CF5D168671484426FDAB8D27EACD8D39 /* Pods-BrutalSampleApp */,
 			);
 		};
@@ -300,34 +312,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B22E6B566EF878059C7B50CB3FED53 /* Resources */ = {
+		E3099B447474FA4C8B4E43081A71C79C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B454C87E0E4FADFC170773D8C38C6D8B /* record.png in Resources */,
-				CCFF640EC1E137D924F283EAB1556358 /* stop.png in Resources */,
+				1826DCC9A1432391CDE52F2408D493B1 /* record.png in Resources */,
+				318AFE4E045A2F48F252F266300B96D0 /* record@2x.png in Resources */,
+				87C5E0A35D5FA8F84146F5E3A760B5A7 /* record@3x.png in Resources */,
+				427AF4D8D5F3486ABA6EDE4F535D5903 /* stop.png in Resources */,
+				913CD48A2D4A33365834F18D4DF4D013 /* stop@2x.png in Resources */,
+				AD9CEF79871DC940FADD3F8481DEC46A /* stop@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E4C71BB6DDF4D707EA07C3CF6B8890C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73CE8B3F009F0CAC77EEE7D8C232FCD4 /* Brutal-dummy.m in Sources */,
-				9849458D81CC5149B2D02FB3AB69FF1D /* BrutalSDK.swift in Sources */,
-				99DE166B7E58BFBE3E2385BB7250039B /* FloatingButtonController.swift in Sources */,
-				D6B10710C708AC69811C9BB77C52C3E0 /* FloatingButtonWindow.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FD08CF241DA63B378203D76EFAC78B93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0407742504C2EE119B6EB0D4B258939D /* Pods-BrutalSampleApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD9D9C3BD57C15B5400235BD7CEB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D67D9C408D55CA4D103AD968DCB744 /* Brutal-dummy.m in Sources */,
+				BACC29510C1FA734BBB185811CA0B39B /* BrutalSDK.swift in Sources */,
+				3F552073C80A27252AD227F4B69B2F07 /* FloatingButtonController.swift in Sources */,
+				CE15265D9B0428B253AD17C05972BEDF /* FloatingButtonWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,47 +353,12 @@
 		CF2EEBE94D7CB7BE261B313FF00C6430 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Brutal;
-			target = 4162443D3ADCE812EDE9C7CA18C435AD /* Brutal */;
+			target = 98E004E7EEDB565425A393933B4FE8AD /* Brutal */;
 			targetProxy = 4B051095B680932F8A77E7AFFD612AAF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1850B2BDA4D637E90274A42EA5BDEA8C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C899E1A2DEB185E725B650A85B1D454 /* Brutal.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Brutal/Brutal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Brutal/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Brutal/Brutal.modulemap";
-				PRODUCT_MODULE_NAME = Brutal;
-				PRODUCT_NAME = Brutal;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3073E9329E3D859060CB4B679A6C557C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -440,6 +421,42 @@
 			};
 			name = Release;
 		};
+		703869335073F0C134EB79124D5E064A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B118343FA48C01A225412935F31CC24E /* Brutal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Brutal/Brutal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Brutal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Brutal/Brutal.modulemap";
+				PRODUCT_MODULE_NAME = Brutal;
+				PRODUCT_NAME = Brutal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8593B59A84172872FD307065449847D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C6EFEA2BD2B9FE8458DF7B1A82912CDC /* Pods-BrutalSampleApp.debug.xcconfig */;
@@ -471,6 +488,41 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBA7EB7258DAC1466871A67811C2D734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B118343FA48C01A225412935F31CC24E /* Brutal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Brutal/Brutal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Brutal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Brutal/Brutal.modulemap";
+				PRODUCT_MODULE_NAME = Brutal;
+				PRODUCT_NAME = Brutal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -543,42 +595,6 @@
 			};
 			name = Debug;
 		};
-		F4B46DD4905B1D5AB1692F0927D98FD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C899E1A2DEB185E725B650A85B1D454 /* Brutal.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Brutal/Brutal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Brutal/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Brutal/Brutal.modulemap";
-				PRODUCT_MODULE_NAME = Brutal;
-				PRODUCT_NAME = Brutal;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F7CA40D3EA45649F4E39D0DF7C16D04D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68533ABE9C7A95D205237648F45E7E33 /* Pods-BrutalSampleApp.release.xcconfig */;
@@ -620,15 +636,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A606A8AB9CCE11472643E02BB9B30DD /* Build configuration list for PBXNativeTarget "Brutal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1850B2BDA4D637E90274A42EA5BDEA8C /* Debug */,
-				F4B46DD4905B1D5AB1692F0927D98FD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -643,6 +650,15 @@
 			buildConfigurations = (
 				8593B59A84172872FD307065449847D1 /* Debug */,
 				F7CA40D3EA45649F4E39D0DF7C16D04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AE1FF3C2D57AD0776012991508FDB7 /* Build configuration list for PBXNativeTarget "Brutal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA7EB7258DAC1466871A67811C2D734 /* Debug */,
+				703869335073F0C134EB79124D5E064A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
