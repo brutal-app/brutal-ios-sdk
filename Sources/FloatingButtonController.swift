@@ -80,11 +80,18 @@ class FloatingButtonController: UIViewController {
 
             NSLog("Stop recording")
             previewViewController?.previewControllerDelegate = self
+
+            if UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.pad {
+                previewViewController?.modalPresentationStyle = .popover
+                previewViewController?.popoverPresentationController?.permittedArrowDirections = [.down]
+            }
+
             previewViewController?.popoverPresentationController?.sourceView = self.recordButton
-            previewViewController?.popoverPresentationController?.permittedArrowDirections = [.down]
 
             DispatchQueue.main.async { [unowned self] in
-                self.present(previewViewController!, animated: true, completion: nil)
+                if previewViewController != nil {
+                    self.present(previewViewController!, animated: true, completion: nil)
+                }
             }
         })
     }
