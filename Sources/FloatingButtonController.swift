@@ -5,14 +5,24 @@ class FloatingButtonController: UIViewController {
 
     private let recordButton: UIButton = {
         let button = UIButton(type: .custom)
-        let bundle = Bundle(for: FloatingButtonController.self)
-        let image = UIImage(named: "record", in: bundle, compatibleWith: nil)
-        button.setImage(image, for: .normal)
+        setStartRecordingUI(button)
         button.sizeToFit()
         button.frame = CGRect(origin: CGPoint(x: 10, y: 10), size: button.bounds.size)
         button.autoresizingMask = []
         return button
     }()
+
+    static private func setStartRecordingUI(_ button: UIButton) {
+        let bundle = Bundle(for: FloatingButtonController.self)
+        let image = UIImage(named: "record", in: bundle, compatibleWith: nil)
+        button.setImage(image, for: .normal)
+    }
+
+    static private func setStopRecordingUI(_ button: UIButton) {
+        let bundle = Bundle(for: FloatingButtonController.self)
+        let image = UIImage(named: "stop", in: bundle, compatibleWith: nil)
+        button.setImage(image, for: .normal)
+    }
 
     private let recorder = RPScreenRecorder.shared()
 
@@ -85,11 +95,11 @@ class FloatingButtonController: UIViewController {
                 return
             }
             if isRecording {
-                self.recordButton.setTitle("Stop", for: .normal)
+                FloatingButtonController.setStopRecordingUI(self.recordButton)
                 self.recordButton.removeTarget(self, action: #selector(self.startRecording), for: .touchUpInside)
                 self.recordButton.addTarget(self, action: #selector(self.stopRecording), for: .touchUpInside)
             } else {
-                self.recordButton.setTitle("Start", for: .normal)
+                FloatingButtonController.setStartRecordingUI(self.recordButton)
                 self.recordButton.removeTarget(self, action: #selector(self.stopRecording), for: .touchUpInside)
                 self.recordButton.addTarget(self, action: #selector(self.startRecording), for: .touchUpInside)
             }
