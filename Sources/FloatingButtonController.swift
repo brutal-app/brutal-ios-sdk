@@ -5,13 +5,9 @@ class FloatingButtonController: UIViewController {
 
     private let recordButton: UIButton = {
         let button = UIButton(type: .custom)
-        button.setTitle("Start", for: .normal)
-        button.setTitleColor(UIColor.red, for: .normal)
-        button.backgroundColor = UIColor.white
-        button.layer.shadowColor = UIColor.black.cgColor
-        button.layer.shadowRadius = 3
-        button.layer.shadowOpacity = 0.8
-        button.layer.shadowOffset = CGSize.zero
+        let bundle = Bundle(for: FloatingButtonController.self)
+        let image = UIImage(named: "record", in: bundle, compatibleWith: nil)
+        button.setImage(image, for: .normal)
         button.sizeToFit()
         button.frame = CGRect(origin: CGPoint(x: 10, y: 10), size: button.bounds.size)
         button.autoresizingMask = []
